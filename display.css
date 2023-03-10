@@ -1,0 +1,40 @@
+#container {
+  height: 800px;
+  background-color: rgb(16, 16, 70);
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  height: 200px;
+  width: 200px;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.block:hover {
+  animation: example;
+  animation: 2s;
+}
+
+
+@keyframes example {
+  0% {
+    transform: rotate(0deg)
+  }
+  20% {
+    transform: rotate(180deg)
+  }
+  40% {
+    transform: rotate(360deg)
+  }
+  60% {
+    transform: rotate(540deg)
+  }
+  80% {
+    transform: rotate(720deg)
+  }
+  100% {
+    transform: rotate(900deg)
+  }
+}

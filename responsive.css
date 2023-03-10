@@ -1,0 +1,17 @@
+
+#title {
+  color: green;
+} 
+
+@media (min-width: 393px) and (max-width: 500px) {
+  #title {
+    color: red;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  #title {
+    color: pink;
+  }
+}
+

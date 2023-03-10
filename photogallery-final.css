@@ -1,0 +1,20 @@
+body {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.image {
+  height: 20rem;
+  width: 31%;
+  margin: calc(7% / 6)
+}
+
+.image:hover {
+  cursor: pointer;
+}
+
+#title {
+  margin: calc(10% / 6);
+  font-family: 'Rampart One', cursive;
+  font-size: 3rem;
+}
